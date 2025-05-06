@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/* headerのスタイリング */
+header {
+    position: fixed; /* 要素を固定 */
+    width: 100%; 
+    height: 60px; 
+    padding: 20px 60px;
+    box-sizing: border-box;
+    top: 0; 
+    left: 0; 
+    display: flex; /* 子要素を横並びにする */
+    align-items: center; /* 縦軸方向で中央に整列 */
+    justify-content:space-between; /* itemを等間隔に並べる */
+    background-color: #c4ebdf; /* 背景を白に */
+}
+header nav ul {
+    display: flex; 
+}
+header nav ul li {
+    list-style: none; /* listタグの中黒(・)をなくす */
+    margin-left: 40px;
+}
+header nav ul li a {
+   color: #000;
+   font-weight:bold; /* 太字 */
+   text-decoration: none;
+}
+
+/* footerのスタイリング */
+footer {
+    position: sticky;
+    width: 100%; 
+    height: 25.5px;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    background-color: #d9d9d9;
+}
+footer nav ul {
+    display: flex;
+    justify-content: center; /* 中央寄せ */
+}
+footer nav ul li {
+    list-style: none; 
+    margin-left: 50px;
+}
+footer nav ul li a{
+    color: #000;
+    font-weight:bold;
+    text-decoration: none;
+ }
+
+ /* mainのスタイリング */
+main{
+    width: 500px; /* 幅を設定して */
+    margin: 20px auto; /* autoで親の中の利用可能なスペースを埋める */
+    padding: 50px 50px;
+    line-height: 2.5;
+    background-color: #fff;
+}
+#section1{
+    margin-bottom: 1000px; /* sectionごとの間隔を空ける */
+}
